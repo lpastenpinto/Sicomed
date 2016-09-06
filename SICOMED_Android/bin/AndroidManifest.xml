@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.example.androidtablayout"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application android:icon="@drawable/icon" android:label="Sicomed">
+        <activity android:name=".P_inicio"
+                  android:label="SICOMED">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".P_Busqueda" />
+        
+        <activity android:name=".Interconsulta" />
+        
+        <activity android:name=".Layout_Comparar_Examenes" />
+        
+        <activity android:name=".Anamnesis_prox" />
+        
+     
+        <activity android:name=".Anamnesis_rem" />
+        
+       
+        <activity android:name=".Datos_personales" />
+        
+		<activity android:name=".AndroidTabLayoutActivity" />
+		
+		<activity android:name=".Examenes" />
+		
+		<activity android:name=".Tratamiento" />
+    </application>
+</manifest>

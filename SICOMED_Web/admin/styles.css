@@ -1,0 +1,93 @@
+@charset "utf-8";
+body {
+	background-image: url(images/bg.JPG);
+}
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+a:active {
+	color: #000000;
+	text-decoration: none;
+}
+input {
+		text-align: center;
+		font-family: calibri, arial, sans-serif;
+		font-size: 13px;
+		background-color: white;
+		border: 1px solid;
+		border-color: #abadb3 #dbdfe6 #e3e9ef #e2e3ea;
+		padding: 2px;
+}
+.MainTitle {
+	font-size: 14px;
+	font-weight: bold;
+}
+.Subtitle {
+	font-size:12px;
+	font-style:italic;
+}
+.Title {
+	font-size:12px;
+	font-weight:bold;
+	padding:5px;
+}
+.Barra_Tabla {
+	font-size: 10px;
+	color:#000000;
+	font-weight:bold;
+}
+.Formularios {
+	padding: 50px;
+}
+.Ayuda {
+	padding: 30px;
+}
+.Menu_Herramientas {
+	padding: 1px;
+	text-align:left;
+}
+.Iconos_Menu_herramientas {
+	padding:15px;
+}
+.Consultas_SaveButton {
+	background-image: url(images/icons/Accept.png);
+	background-repeat:no-repeat;
+    border:0px;
+    width:32px;
+    height:32px
+}
+.Consultas_DeleteButton {
+	background-image: url(images/icons/Delete.png);
+	background-repeat:no-repeat;
+    border:0px;
+    width:32px;
+    height:32px
+}
+.InterConsultas_DeleteButton {
+	background-image: url(images/icons/Delete.png);
+	background-repeat:no-repeat;
+    border:0px;
+    width:32px;
+    height:32px
+}
+.Tratamientos_DeleteButton {
+	background-image: url(images/icons/Delete.png);
+	background-repeat:no-repeat;
+    border:0px;
+    width:32px;
+    height:32px
+}

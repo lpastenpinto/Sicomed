@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <ScrollView  android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <HorizontalScrollView
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content">
+  <LinearLayout   android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"> 
+       
+  <ScrollView  android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+  	<LinearLayout android:orientation="vertical"
+            android:layout_width="800dp" android:layout_height="wrap_content">            
+  	   <TextView  android:id="@+id/txt"
+  			android:textSize="20dp"
+			android:textStyle="bold"
+			android:typeface="serif"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:text="Historia de Visitas Medicas"/>  	   
+       <TextView android:id="@+id/anam_prox_txt" 
+            android:layout_marginLeft="25dp"
+			android:layout_height="wrap_content"
+    		android:layout_width="700dp"/>     	
+	</LinearLayout>
+</ScrollView>	
+	<LinearLayout android:orientation="vertical"
+            android:layout_width="wrap_content" android:layout_height="wrap_content">
+       <TextView android:id="@+id/Mot_txt" 
+			android:textSize="20dp"
+			android:textStyle="bold"
+			android:typeface="serif"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+    		android:text="Motivo de Consulta"/>  
+    	<EditText
+        	android:id="@+id/Mot_edit"
+    	    android:layout_width="450dp"
+        	android:layout_height="wrap_content"/>    	
+    	<TextView android:id="@+id/Anamprox_txt" 
+			 android:textSize="20dp"
+			android:textStyle="bold"
+			android:typeface="serif"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+    		android:text="Anamnesis Proxima"/>      		
+    	<EditText
+        	android:id="@+id/Anamprox_edit"
+    	    android:layout_width="450dp"
+        	android:layout_height="wrap_content"/>		  
+        <Button
+	    		    android:id="@+id/b_edit"
+	    		    android:layout_width="150dp"
+	    		    android:layout_height="wrap_content"
+	    		    android:text="Guardar" />	   	
+	</LinearLayout>
+	
+	</LinearLayout>
+	</HorizontalScrollView>
+	</ScrollView>
+</LinearLayout>

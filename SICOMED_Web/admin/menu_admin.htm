@@ -1,0 +1,46 @@
+<html>
+<head>
+<script src="SpryAssets/SpryAccordion.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryAccordion.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+#closeSesion:hover {
+	text-decoration:none;
+}
+#changePass:hover {
+	text-decoration:none;
+}
+-->
+</style>
+</head>
+<body>
+<a href="salir.php" id="closeSesion"><img src="images/icons/Stop.png" width="32" height="32" border="0" align="absmiddle">Cerrar Sesion</a>
+<br>
+<div id="Menu" class="Accordion" tabindex="0">
+<div class="AccordionPanel">
+    <div class="AccordionPanelTab">Pacientes</div>
+    <div class="AccordionPanelContent">
+      <table width="200" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td><img src="images/icons/User-Add.png" width="32" height="32"></td>
+          <td><a href="agregar_paciente.php">Ingresar Paciente</a></td>
+        </tr>
+        <tr>
+          <td><img src="images/icons/User.png" width="32" height="32"></td>
+          <td><a href="pacientes.php">Listado de Pacientes</a></td>
+        </tr>
+        <tr>
+          <td><img src="images/icons/Zoom.png" width="32" height="32"></td>
+          <td><a href="buscar_paciente.php">Buscar Paciente</a></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+<!--
+var Accordion1 = new Spry.Widget.Accordion("Menu");
+//-->
+</script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+<ScrollView  android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    
+<HorizontalScrollView
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content">
+  
+<LinearLayout   android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"> 
+        
+    
+  <ScrollView  android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+  	<LinearLayout android:orientation="vertical"
+            android:layout_width="800dp" android:layout_height="wrap_content">            
+  	   <TextView  android:id="@+id/txt"
+  			android:textSize="20dp"
+			android:textStyle="bold"
+			android:typeface="serif"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:text="Historia de Interconsultas"/>  	   
+       <TextView android:id="@+id/Hist_inter_txt" 
+            android:layout_marginLeft="25dp"
+			android:layout_height="wrap_content"
+    		android:layout_width="700dp"/>     	
+	</LinearLayout>
+</ScrollView>	
+	<LinearLayout android:orientation="vertical"
+            android:layout_width="wrap_content" android:layout_height="wrap_content">
+       <TextView android:id="@+id/Inter_txt" 
+			android:textSize="20dp"
+			android:textStyle="bold"
+			android:typeface="serif"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+    		android:text="Motivo Nueva Interconsulta"/>  
+    	<EditText
+        	android:id="@+id/Inter_edit"
+    	    android:layout_width="450dp"
+        	android:layout_height="wrap_content"/>    	
+    	<TextView android:id="@+id/Esp_int_txt" 
+			android:textSize="20dp"
+			android:textStyle="bold"
+			android:typeface="serif"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+    		android:text="Especialidad Doctor"/>  
+    	<EditText
+        	android:id="@+id/Esp_int_edit"
+    	    android:layout_width="450dp"
+        	android:layout_height="wrap_content"/>    	
+		        <Button
+	    		    android:id="@+id/b_guard_inter"
+	    		    android:layout_width="150dp"
+	    		    android:layout_height="wrap_content"
+	    		    android:text="Guardar" />
+    	<TextView android:id="@+id/Nombre_txt" 
+			 android:textSize="20dp"
+			android:textStyle="bold"
+			android:typeface="serif"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+    		android:text="Nombre Doctor"/>      		
+    	<EditText
+        	android:id="@+id/Nombre_edit"
+    	    android:layout_width="450dp"
+        	android:layout_height="wrap_content"/>		        		        		        	
+    	<TextView android:id="@+id/Control_txt" 
+			 android:textSize="20dp"
+			android:textStyle="bold"
+			android:typeface="serif"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+    		android:text="Resultado Interconsulta"/>      		
+    	<EditText
+        	android:id="@+id/Control_edit"
+    	    android:layout_width="450dp"
+        	android:layout_height="wrap_content"/>    	
+  	    <Spinner android:id="@+id/fecha_t"
+   	 			android:layout_width="200dp"   
+   		 		android:layout_height="wrap_content" 
+   		 		android:text="Elegir Especialidad/Fecha Indicacion"/>		  
+        <Button
+	    		    android:id="@+id/b_guard_control"
+	    		    android:layout_width="150dp"
+	    		    android:layout_height="wrap_content"
+	    		    android:text="Guardar" />	   	
+	</LinearLayout>
+	
+	
+</LinearLayout>
+</HorizontalScrollView>
+    
+</ScrollView>	
+</LinearLayout>
